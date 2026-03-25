@@ -4,24 +4,42 @@
     box-sizing: border-box;
 }
 
+header,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 body {
     font-size: 16px;
     font-family: Roboto, Arial, sans-serif;
 }
 
+.grid {
+    display: grid;
+    align-items: center;
+}
+
 main {
-    max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: rgb(255, 255, 255);
-    padding: 10px;
     display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
 }
 
 h1 {
@@ -37,6 +55,8 @@ aside {
     color: #333;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
