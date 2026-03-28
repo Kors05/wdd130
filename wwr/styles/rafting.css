@@ -20,7 +20,7 @@ header {
     display: grid;
     grid-template-columns: 150px 1fr;
     align-items: center;
-    background-color: #264653;
+    background-color: #293f49;
     padding: 10px;
 }
 
@@ -45,7 +45,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: #090909;
     padding: 10px 20px;
     background-color: #cbcaca;
     border: 1px solid #333;
@@ -99,7 +99,7 @@ h1 {
     bottom: 20px;
     left: 2px;
     background-color: #00000099;
-    color: white;
+    color: #ffffff;
     padding: 16px;
     max-width: 100%;
     font-size: 0.9rem;
@@ -113,7 +113,7 @@ h1 {
 
 section h2 {
     background-color: var(--accent1-color);
-    color: white;
+    color: #ffffff;
     padding: 10px;
     text-align: center;
     font-size: 1.4rem;
