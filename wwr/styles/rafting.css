@@ -20,7 +20,7 @@ header {
     display: grid;
     grid-template-columns: 150px 1fr;
     align-items: center;
-    background-color: #d4d3d3;
+    background-color: #264653;
     padding: 10px;
 }
 
@@ -47,7 +47,7 @@ nav a {
     text-decoration: none;
     color: black;
     padding: 10px 20px;
-    background-color: #eee;
+    background-color: #cbcaca;
     border: 1px solid #333;
 }
 
@@ -56,9 +56,6 @@ nav a {
     grid-template-columns: 1fr 200px 1fr;
     gap: 20px;
     align-items: center;
-}
-
-.history {
     width: 100%;
 }
 
@@ -72,6 +69,8 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+    border: none;
+    background: none;
 }
 
 .hero {
@@ -148,9 +147,4 @@ footer {
     align-items: center;
     background-color: #d4d3d3;
     padding: 10px;
-}
-
-.socialmedia a {
-    border: none;
-    background: none;
 }
