@@ -33,8 +33,8 @@
     </section>
     <section class="contact-grid">
       <div class="map">
-        <iframe src="https://www.google.com/maps?q=Kolob,California&output=embed" width="600"
-          height="300" style="border:0;" allowfullscreen loading="lazy">
+        <iframe src="https://www.google.com/maps?q=Kolob,California&output=embed" height="300"
+          style="border:0;" allowfullscreen loading="lazy">
         </iframe>
       </div>
       <form>
@@ -44,18 +44,32 @@
         <label for="email">Email</label>
         <input type="email" id="email" name="email" required>
 
-        <p>Message Purpose</p>
-        <label><input type="radio" name="purpose" required> General Inquiry</label>
-        <label><input type="radio" name="purpose"> Reservation Question</label>
-        <label><input type="radio" name="purpose"> Website Suggestion</label>
+        <div class="radio-group">
+          <p>Message Purpose</p>
+
+          <div class="radio-option">
+            <input type="radio" id="general" name="purpose" value="general" required>
+            <label for="general">General Inquiry</label>
+          </div>
+
+          <div class="radio-option">
+            <input type="radio" id="reservation" name="purpose" value="reservation">
+            <label for="reservation">Reservation Question</label>
+          </div>
+
+          <div class="radio-option">
+            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+            <label for="suggestion">Website Suggestion</label>
+          </div>
+        </div>
 
         <label for="message">Message</label>
         <textarea id="message" name="message"></textarea>
 
-        <label>
-          <input type="checkbox" name="subscribe">
-          Please subscribe me to the monthly newsletter
-        </label>
+        <div class="checkbox-group">
+          <input type="checkbox" id="subscribe" name="subscribe">
+          <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+        </div>
         <button type="submit">Get in Touch!</button>
       </form>
     </section>
