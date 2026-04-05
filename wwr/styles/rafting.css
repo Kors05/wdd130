@@ -193,13 +193,13 @@ h2 {
 .map iframe {
     width: 100%;
     height: 300px;
-    border: none;
+    border: 0;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 
 textarea {
@@ -216,12 +216,6 @@ textarea {
     display: flex;
     align-items: center;
     gap: 8px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
 }
 
 form label {
